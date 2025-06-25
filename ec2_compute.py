@@ -6,7 +6,7 @@ import firebase_admin
 from firebase_admin import credentials, db
 from AWSIoTPythonSDK.MQTTLib import AWSIoTMQTTClient
 
-# === AWS IoT Certificate Strings ===
+# === AWS IoT Certificate Strings ==
 ROOT_CA = """-----BEGIN CERTIFICATE-----
 MIIDQTCCAimgAwIBAgITBmyfz5m/jAo54vB4ikPmljZbyjANBgkqhkiG9w0BAQsF
 ADA5MQswCQYDVQQGEwJVUzEPMA0GA1UEChMGQW1hem9uMRkwFwYDVQQDExBBbWF6
